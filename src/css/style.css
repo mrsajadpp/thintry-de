@@ -199,14 +199,18 @@ header .right .nav-bar ul li a {
     align-items: center;
     justify-content: center;
     padding: 40px;
- 
+
 
     /* background: #87000022; */
 }
 
-.bots{
+.bots {
     overflow-y: scroll !important;
     display: flex;
+}
+
+.bots::-webkit-scrollbar {
+    display: none;
 }
 
 .highlight {
@@ -371,6 +375,7 @@ header .right .nav-bar ul li a {
 /* Screen width 362 */
 
 @media (max-width: 362px) {
+
     /* .landing-page .container .top {
         margin-top: -100px;
     } */
