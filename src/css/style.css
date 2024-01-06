@@ -350,6 +350,14 @@ header .right .nav-bar ul li a {
     header .left .logo-area img {
         width: 180px;
     }
+
+    .landing-page .container .top .title button {
+        width: 140px;
+    }
+
+    .landing-page .container .top .title button:hover {
+        width: 131px;
+    }
 }
 
 /* Screen width 362 */
